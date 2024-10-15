@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Definindo variáveis de cores e fontes diretamente no :root */
+:root {
+  --primary-color: #334031;  /* Cor Primária */
+  --secondary-color: #F0EEDC; /* Cor Secundária */
+  --button-color: #0FEC29;    /* Cor de destaque */
+  --black-color: #000000;
+  --white-color: #fff;
+   
+}
+
+/* Resetar margens e paddings para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+/* Garantir que a página ocupe toda a altura da tela */
+html, body, #root {
+  height: 100vh;
+}
