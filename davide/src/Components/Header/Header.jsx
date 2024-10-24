@@ -24,7 +24,7 @@ const TituloVerde = styled.span`
  color: var(--primary-color)
 `
 const SubTitulo = styled.p`
- font-weight: 100;
+ font-weight: 300;
  color: var(--black-color);
  font-size: 32px;
  line-height: 40px;
@@ -60,7 +60,7 @@ const Imagem = styled.img`
 
 const Header = () => {
     return (
-        <Inicio>
+        <Inicio id='inicio'>
             <Texto>
                 <Titulo>Da<TituloVerde>vide</TituloVerde></Titulo>
                 <SubTitulo>Soluções em decorações,<br/> transformando ambientes <br/>em  experiências inesquecíves.</SubTitulo>

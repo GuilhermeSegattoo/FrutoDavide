@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import img1 from '../../assets/image1.svg';
-import img2 from '../../assets/image2.svg';
+import img1 from '../../assets/almofada.svg';
+import img2 from '../../assets/toalha.svg';
 import img3 from '../../assets/image3.svg';
 import img4 from '../../assets/image4.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -43,12 +43,13 @@ const ImageContainer = styled.div`
     max-width: 500px;
 `;
 
-const Botao = styled.button`
+const Botao = styled.a`
   color: var(--primary-color)
   font-weight: 500;
   font-size: 15px;
   margin-top: 15px;
   margin-left: 50px; 
+  padding: 1rem 2rem;
   width: 420px;
   height: 54px;
   border: solid 2px var(--primary-color); 
@@ -74,7 +75,7 @@ const SegundoSobre = () => {
                 <Description>Do design dos quartos à escolha dos enxovais, 
                 criamos tudo sob medida para você.
                 </Description> 
-                <Botao>Vamos dar vida ao projeto dos sonhos?</Botao>      
+                <Botao href='#contato'>Vamos dar vida ao projeto dos sonhos?</Botao>      
             </TextContainer>
 
             <ImageContainer>

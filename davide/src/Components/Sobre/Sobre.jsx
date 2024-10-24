@@ -35,12 +35,12 @@ const SubFrase = styled.p`
 
 const Sobre = () => {
   return (
-    <Section>
+    <Section id='Sobre'>
       <Div>
         <Image src={sala} alt="" />
         <Texto>
           <Frase>
-            A 35 anos no mercado e décadas de experiência
+            A 35 anos no mercado
           </Frase>
           <SubFrase>
             nossa equipe teve o orgulho
