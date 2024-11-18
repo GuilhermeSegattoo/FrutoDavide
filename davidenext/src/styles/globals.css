@@ -1,0 +1,26 @@
+/* globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais adicionais */
+:root {
+  --primary-color: #334031;  
+  --secondary-color: #F0EEDC; 
+  --button-color: #0FEC29;    
+  --black-color: #000000;
+  --white-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Poppins', sans-serif; /* Definindo Poppins como fonte global */
+}

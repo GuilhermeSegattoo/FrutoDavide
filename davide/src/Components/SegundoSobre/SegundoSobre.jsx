@@ -33,9 +33,12 @@ const Title = styled.h2`
 `;
 
 const Description = styled.p`
-    font-size: 24px;
+    font-size: 20px;
     color: var(--black-color);
     text-align: left;
+    
+
+
 `;
 
 const ImageContainer = styled.div`
@@ -45,18 +48,17 @@ const ImageContainer = styled.div`
 
 const Botao = styled.a`
   color: var(--primary-color)
+  text-decoration: none;
   font-weight: 500;
   font-size: 15px;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-left: 50px; 
   padding: 1rem 2rem;
-  width: 420px;
-  height: 54px;
   border: solid 2px var(--primary-color); 
   border-radius: 15px;
   background-color: var(--primary-color); 
   color: var(--secondary-color); /* Adicionei uma cor de texto, se necessário */
-  cursor: pointer; /* Para indicar que é clicável */
+  cursor: pointer; /* Para indicar que é clicável 
   transition: background-color 0.3s, color 0.3s; /* Efeito de transição para hover */
   
   /* Adicione um efeito hover opcional */
