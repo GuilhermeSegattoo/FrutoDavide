@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import Image from 'next/image';
 import golden from '../assets/Golden.svg';
 import cullinan from '../assets/Cullinan.svg';
@@ -7,7 +6,7 @@ import nobile from '../assets/Nobile.svg';
 import plaza from '../assets/Plaza.svg';
 import royal from '../assets/Royal.svg';
 
-const Cliente: FC = () => {
+const Cliente = () => {
   return (
     <section className="w-full p-10 bg-secondary text-primary flex flex-col justify-start">
       <h3 className="text-2xl lg:text-3xl font-semibold mb-10 text-left">Nossos clientes</h3>
@@ -35,7 +34,7 @@ const Cliente: FC = () => {
         
         <div className="cliente-card flex flex-col items-center bg-green-900 rounded-lg p-4 shadow-md transition-transform duration-300 hover:transform hover:-translate-y-2 hover:shadow-lg">
           <Image src={lets} alt="Let's Brasília" width={240} height={240} className="rounded-lg mb-4" />
-          <p className="text-lg font-bold text-secondary">Let's Brasília</p>
+          <p className="text-lg font-bold text-secondary">Lets Brasília</p>
         </div>
         
         <div className="cliente-card flex flex-col items-center bg-green-900 rounded-lg p-4 shadow-md transition-transform duration-300 hover:transform hover:-translate-y-2 hover:shadow-lg">
