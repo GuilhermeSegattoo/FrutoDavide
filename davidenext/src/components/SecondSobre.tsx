@@ -19,7 +19,7 @@ const SecondSobre = () => {
   useEffect(() => {
     const interval = setInterval(nextImage, 3000); // 3000ms = 3 segundos
     return () => clearInterval(interval); // Limpa o intervalo quando o componente é desmontado
-  }, []); // O array vazio garante que o efeito seja executado uma vez quando o componente for montado
+  }, [nextImage]); // O array vazio garante que o efeito seja executado uma vez quando o componente for montado
 
   return (
     <div className="flex flex-wrap items-center justify-center p-12">

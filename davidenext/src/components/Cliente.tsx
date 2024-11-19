@@ -35,7 +35,7 @@ const Cliente: FC = () => {
         
         <div className="cliente-card flex flex-col items-center bg-green-900 rounded-lg p-4 shadow-md transition-transform duration-300 hover:transform hover:-translate-y-2 hover:shadow-lg">
           <Image src={lets} alt="Let's Brasília" width={240} height={240} className="rounded-lg mb-4" />
-          <p className="text-lg font-bold text-secondary">Let's Brasília</p>
+          <p className="text-lg font-bold text-secondary">Lets Brasília</p>
         </div>
         
         <div className="cliente-card flex flex-col items-center bg-green-900 rounded-lg p-4 shadow-md transition-transform duration-300 hover:transform hover:-translate-y-2 hover:shadow-lg">
