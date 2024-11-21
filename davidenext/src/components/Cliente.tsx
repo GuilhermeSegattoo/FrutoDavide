@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import Image from 'next/image';
 import golden from '../assets/Golden.svg';
 import cullinan from '../assets/Cullinan.svg';
@@ -7,7 +6,7 @@ import nobile from '../assets/Nobile.svg';
 import plaza from '../assets/Plaza.svg';
 import royal from '../assets/Royal.svg';
 
-const Cliente: FC = () => {
+const Cliente = () => {
   return (
     <section className="w-full p-10 bg-secondary text-primary flex flex-col justify-start">
       <h3 className="text-2xl lg:text-3xl font-semibold mb-10 text-left">Nossos clientes</h3>
